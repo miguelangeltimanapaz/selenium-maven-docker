@@ -35,6 +35,6 @@ public class TestA {
 		webdriver.navigate().to("https://www.google.com");
 		String strPageTitle = webdriver.getTitle();
 		System.out.println("Título de la página: - "+strPageTitle);
-		Assert.assertTrue(strPageTitle.equalsIgnoreCase("Google Test"), "Página del título no coincide");
+		Assert.assertTrue(strPageTitle.equalsIgnoreCase("Google"), "Página del título no coincide");
 	}
 }
