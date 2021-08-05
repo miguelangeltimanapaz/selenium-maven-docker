@@ -18,7 +18,7 @@ import java.net.MalformedURLException;
 public class TestB {
 
 	private static RemoteWebDriver webdriver = null;
-	public static String remote_url_chrome = "http://54.145.165.141:4444/wd/hub";
+	public static String remote_url_chrome = "http://3.82.230.88:4444/wd/hub";
 
 	@BeforeClass
 	public void setUp() throws MalformedURLException {
